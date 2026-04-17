@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuwa Shrestha | Backend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#hero">Skip to content</a>
+    <nav class="navbar" aria-label="Primary navigation">
+        <div class="nav-content">
+            <a class="logo" href="#hero" aria-label="Go to top">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="">My Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="hero-copy">
+                <div class="window-dots" aria-hidden="true">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                </div>
+                <p class="eyebrow">Backend Developer based in Kathmandu</p>
+                <h1 class="name">Yuwa Shrestha</h1>
+                <h2 class="title">Building secure APIs, scalable systems, and backend experiences that stay reliable under pressure.</h2>
+                <p class="tagline">Providing scalable systems, secure APIs, and efficient backend architectures.</p>
+                <div class="hero-highlights" aria-label="Key highlights">
+                    <div class="hero-highlight">
+                        <div class="hero-highlight-top">
+                            <span class="stat-label">Focus</span>
+                        </div>
+                        <p>Backend Development</p>
+                    </div>
+                    <div class="hero-highlight">
+                        <div class="hero-highlight-top">
+                            <span class="stat-label">Core Stack</span>
+                        </div>
+                        <p>Node.js, Express, MongoDB, Python</p>
+                    </div>
+                    <div class="hero-highlight">
+                        <div class="hero-highlight-top">
+                            <span class="stat-label">Strength</span>
+                        </div>
+                        <p>APIs, databases, and performance-minded systems</p>
+                    </div>
+                </div>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="section-heading">
+                <p class="section-kicker">About</p>
+                <h3 class="section-title">A quick snapshot of who I am.</h3>
+            </div>
+            <div class="about-layout">
+                <div class="card about-card">
+                    <p>Motivated Backend Developer eager to design and implement scalable server-side solutions. Dedicated
+                        to building secure APIs, managing databases efficiently, and optimizing system performance to
+                        support seamless user experiences.</p>
+                    <p class="mt-1"><strong>Education:</strong> Bachelor in Computer Application, National College of
+                        Computer Studies, Kathmandu.</p>
+                </div>
+                <div id="skills" class="card skills-card">
+                    <p class="mini-heading">Core Skills</p>
+                    <div class="skills-grid">
+                        <div class="skill-item">Node.js</div>
+                        <div class="skill-item">Express.js</div>
+                        <div class="skill-item">MongoDB</div>
+                        <div class="skill-item">Python</div>
+                        <div class="skill-item">Flask</div>
+                        <div class="skill-item">REST APIs</div>
+                        <div class="skill-item">Database Design</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="section-heading">
+                <p class="section-kicker">Projects</p>
+                <h3 class="section-title">Projects that showcase my backend development work</h3>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="./assets/Busease.png" alt="Bus Reservation System interface preview">
+                    </div>
+                    <div class="project-head">
+                        <h4>Bus Reservation System</h4>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="icon-link" href="https://github.com/greyy004/Bus-Reservation-System" target="_blank" rel="noreferrer"
+                                aria-label="View on GitHub">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Admin dashboard for managing users, buses, and revenue matching with a role-based access control
+                        system for secure ticket downloads.</p>
+                    <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="./assets/Room.png" alt="Hotel Cancellation Prediction interface preview">
+                    </div>
+                    <div class="project-head">
+                        <h4>Hotel Cancellation Prediction</h4>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="icon-link" href="https://github.com/greyy004/HotelCancellationPrediction" target="_blank" rel="noreferrer"
+                                aria-label="View on GitHub">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Flask-based hotel booking platform leveraging a Machine Learning Random Forest model to predict
+                        user cancellations.</p>
+                    <div class="tags"><span>Python</span><span>Flask</span><span>Machine Learning</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="./assets/Chatbot.png" alt="Real-time ChatBot interface preview">
+                    </div>
+                    <div class="project-head">
+                        <h4>Real-time ChatBot</h4>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="icon-link" href="https://github.com/greyy004/CharacterAnswers" target="_blank" rel="noreferrer"
+                                aria-label="View on GitHub">
+                                <i class="fa-brands fa-github" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Interactive room-based chat app providing temporary spaces with a terminal-style UI, integrated
+                        with the Gemini API.</p>
+                    <div class="tags"><span>Node.js</span><span>Socket.IO</span><span>Gemini API</span></div>
+                </div>
+                <div class="project-card">
+                    <div class="project-visual">
+                        <img src="./assets/Race.png" alt="Race Track Rental App interface preview">
+                    </div>
+                    <div class="project-head">
+                        <h4>Race Track Rental App</h4>
+                        <div class="project-links" aria-label="Project links">
+                            <a class="icon-link" href="https://www.figma.com/proto/cxexfoouPWHDOP8lIX9Ynl/Untitled?node-id=108-413&p=f&t=nOFIayu46LbU0xYq-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=108%3A413&show-proto-sidebar=1" target="_blank" rel="noreferrer"
+                                aria-label="View on Figma">
+                                <i class="fa-brands fa-figma" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <p>Focused UI/UX design prototype emphasizing a frictionless booking flow and clean navigation
+                        structure.</p>
+                    <div class="tags"><span>Figma</span><span>UI/UX</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="section-heading">
+                <p class="section-kicker">Contact</p>
+                <h3 class="section-title">Let's connect and talk about building something reliable.</h3>
+            </div>
+            <div class="card contact-card">
+                <div class="contact-details">
+                    <p class="mini-heading">Contact Details</p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:shresthayuwa2@gmail.com" class="email-link">shresthayuwa2@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <span>+977 9749327089</span></p>
+                    <p><i class="fa-solid fa-location-dot"></i> <span>Kathmandu, Nepal</span></p>
+                    <p><i class="fa-brands fa-github"></i> <a href="https://github.com/greyy004" target="_blank" rel="noreferrer">github.com/greyy004</a></p>
+                </div>
+                <form class="contact-form" action="https://formspree.io/f/xjgjwkga" method="POST">
+                    <p class="mini-heading">Send a Message</p>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" rows="3" required></textarea>
+                    <button type="submit">Send Message</button>
+                    <div id="form-msg"></div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
