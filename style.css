@@ -383,7 +383,8 @@ textarea:focus-visible {
     line-height: 1.15;
     letter-spacing: -0.04em;
     max-width: 100%;
-    white-space: nowrap;
+    white-space: normal;
+    overflow-wrap: break-word;
 }
 
 .about-layout {
@@ -413,6 +414,10 @@ textarea:focus-visible {
 .contact-details p,
 .project-card p {
     color: var(--text-soft);
+}
+
+.about-card p {
+    text-align: justify;
 }
 
 .mt-1 {
